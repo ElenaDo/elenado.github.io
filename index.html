@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="10">
+
+<nav id="navbar" class="navbar fixed-top navbar-light bg-light d-flex justify-content-end">
+
+  <ul class="navbar-nav nav-list mt-0">
+    <li class="nav-item"><a class="nav-link" href="#welcome-section">Welcome</a></li>
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+  </ul>
+</nav>
+<section id="welcome-section" class="welcome-section">
+  <h1>Hi, I'm Elena </h1>
+  <h4>I'm your future Frontend Developer</h4>
+  <p id="passion">with passion for learning</p>
+  <i class="fas fa-map-marker-alt"></i>
+  <p>Based in Berlin, Germany</p>
+</section>
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <div class="section-about">
+    <div class="me-and-edu">
+      <p>I'm Elena Raspopova.</p>
+      <p>
+        I am an enthusiastic and dedicated junior frontend developer, based in Berlin (Germany work permit holder).
+      </p>
+      <p>
+        I devote myself to practicing JavaScript and learning new technologies.
+      </p>
+      <h4>Education</h4>
+      <ul>
+        <li><span>&#10003;</span> IT & Mathematics Teacher (Diploma)</li>
+        <li><span>&#10003;</span> Responsive Web Design (<a href="https://www.freecodecamp.org/certification/fcc5cf3097a-af33-4ec5-854b-3ffc1015b8b1/responsive-web-design" target="_blanc">Certificate</a>)</li>
+        <li><span>&#10003;</span> JS algorithms and data structures (<a href="https://www.freecodecamp.org/fcc5cf3097a-af33-4ec5-854b-3ffc1015b8b1" target="_blanc">see my progress</a>)</li>
+      </ul>
+    </div>
+    <div class="skills">
+      <h4>Have experience with</h4>
+      <ul>
+        <li><img title="HTML5" src="img/html.png"></i></li>
+        <li> <img title="CSS3" src="img/css.png"></i></li>
+        <li><img title="JavaScript" src="img/JavaScript.png"></i></li>
+        <li><img title="Vue.JS" src="img/vue.png"></i></li>
+        <li><img title="Vuetify" src="img/vuetify.png"></i></li>
+        <li><img title="Bootstrap" src="img/bootstrap.png"></i></li>
+      </ul>
+      <h4>Familiar with</h4>
+      <ul>
+        <li><img title="Git" src="img/git.png"></li>
+        <li><img title="Sass" src="img/sass.png"></li>
+        <li><img title="JQuery" id="jquery" src="img/JQuery.png"></li>
+        <li><img title="Material Design" src="img/material_design.png"></li>
+      </ul>
+      <h4>Desire to learn</h4>
+      <ul>
+        <li><img title="TypeScript" src="img/typescript.png"></li>
+        <li><img title="Webpack" src="img/webpack.png"></li>
+        <li><img title="Node.JS" id="node" src="img/node.js.png"></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="projects">
+  <h2>Some of my Projects</h2>
+    <div class="row row-cols-3 w-75 mx-auto align-content-center">
+      <div class="col-12 col-md-4">
+        <div id="pic1" class="card border-0 rounded-0 text-white bg-dark shadow mb-3">
+          <img src="img/app.list.png" class="card-img-top rounded-0 overlay" alt="Lists & Notes App">
+          <div class="card-header text-center pt-2 pb-2 px-0 centered h6">Lists & Notes App
+          </div>
+          <button class="btn btn-link px-0 pt-1 pb-2 text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            Details
+          </button>
+          <div class="collapse" id="collapseOne">
+            <div class="card bg-dark card-body">
+              <p><b>Used technologies:</b> JavaScript, Vue.JS, Vuetify, HTML5, CSS3, Materialdesign</p>
+              <h4>Main features:</h4> 
+              <ul class="card-list">
+                <li> Creating different Notes and Lists in one app.</li>
+                <li> Created time set automatically as soon as note or list was changed</li>
+                <li> Delete particular note or list from the app</li>
+                <li> All changes saved in Local storage</li>
+                <li> Pin a particular note or list</li>
+              </ul>
+              <div class="d-flex align-content-justify">
+                <a href="#" class="card-link text-white">View code</a>
+                <a href="#" class="card-link text-white">View app</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div id="pic2" class="card border-0 rounded-0 text-white bg-dark shadow mb-3">
+          <img src="img/tips_calc.png" class="card-img-top rounded-0 overlay" alt="Lists & Notes App">
+          <div class="card-header text-center pt-2 pb-2 px-0 centered h6">Tips calculator
+          </div>
+          <button class="btn btn-link px-0 pt-1 pb-2pl-0 pt-0 text-white" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Details
+          </button>
+          <div class="collapse" id="collapseTwo">
+            <div class="card bg-dark card-body">
+              <p><b>Used technologies:</b> JavaScript, Vue.JS, Vuetify, HTML5, CSS3</p>
+              <h4>Main features:</h4> 
+              <ul class="card-list">
+                <li> Suggestion tips by choosen region</li>
+                <li> Tipping ammount could be selected in two ways: rate service or adjust slider mannualy</li>
+                <li> Currency binding to choosen region</li>
+              </ul>
+              <div class="d-flex align-content-justify">
+                <a href="#" class="card-link text-white">View code</a>
+                <a href="#" class="card-link text-white">View app</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div id="pic3" class="card border-0 rounded-0 text-white bg-dark shadow mb-3">
+          <img src="img/covid.png" class="card-img-top rounded-0 overlay" alt="Lists & Notes App">
+          <div class="card-header text-center pt-2 pb-2 px-0 centered h6">Covid Tracker
+          </div>
+          <button class="btn btn-link px-0 pt-1 pb-2 text-white" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Details
+          </button>
+          <div class="collapse" id="collapseThree">
+            <div class="card bg-dark card-body">
+              <p><b>Used technologies:</b> JavaScript, API, Chart.js, Vue.JS, Vuetufy, HTML5</p>
+              <h4>Main features:</h4> 
+              <ul class="card-list">
+                <li> Tracking Covid-19 cases by country</li>
+                <li> Graphical representation of data</li>
+              </ul>
+              <div class="d-flex align-content-justify">
+              <a href="#" class="card-link text-white">Demo</a>
+                <a href="#" class="card-link text-white">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+</section>
+<section class="contacts" id="contacts">
+  <h2 class="contacts_header">Contacts</h2>
+  <div class="alert form-display" role="alert">
+  A simple primary alert—check it out!
+</div>
+  <form class="contact-form" method="post" action="https://79hsm76dgb.execute-api.eu-central-1.amazonaws.com/contactForm">
+    <h4>Leave me a message</h4>
+      <input type="text" id="name" name="name" placeholder="Name" class="form-position" required>
+      <input type="email" name="email" placeholder="E-mail" required>
+
+      <textarea id="message" name="message" placeholder="Message"
+        class="input-textarea"></textarea>
+    </div>
+    <button type="submit" id="submit" class="submit-button">Submit
+    </button>
+  </form>
+  <h2 class="contacts_h">Let's work together</h2>
+  <div class="contacts-links">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/elena-raspopova-900349124/" id="profile-link" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+      <li class="cont-links-icon"><a href="https://github.com/ElenaDo"><i class="fab fa-github" target="_blank"></i> GitHub</a></li>
+      <li><a href="mailto:rqspopova@gmail.com"><i class="fas fa-envelope" target="_blank"></i> Email</a></li>
+      <ul>
+  </div>
+  
+</section>
+<footer>
+  <p>&copy; 2020 Created by Elena Raspopova</p>
+</footer>
+<script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
