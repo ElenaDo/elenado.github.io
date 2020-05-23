@@ -172,11 +172,21 @@ section{
 .skills #jquery{
   width: 4rem;
 }
-
+.skills #react{
+  width: 3rem;
+}
 .skills h4 {
   color: #3d4849;
   font-weight: 370;
   letter-spacing: 0.4px;
+}
+@media(max-width: 600px){
+ .me-and-edu p{
+  text-align: center;
+ }
+ .skills h4{
+  text-align: center;
+ }
 }
 #projects {
   background-color: #f8f9fa;
